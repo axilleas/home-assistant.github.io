@@ -58,6 +58,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-time-to-read (0.1.2)
       jekyll
+    jekyll-toc (0.14.0)
+      jekyll (>= 3.8)
+      nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.2.1)
@@ -127,6 +130,7 @@ DEPENDENCIES
   jekyll-redirect-from (= 0.16.0)
   jekyll-sitemap (= 1.4.0)
   jekyll-time-to-read (= 0.1.2)
+  jekyll-toc
   nokogiri (= 1.10.9)
   rake (= 13.0.1)
   sass-globbing (= 1.1.5)
@@ -139,4 +143,4 @@ RUBY VERSION
    ruby 2.6.2p47
 
 BUNDLED WITH
-   2.0.1
+   2.1.4

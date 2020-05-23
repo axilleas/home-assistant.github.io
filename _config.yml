@@ -47,6 +47,7 @@ highlighter: none
 plugins:
   - jekyll-redirect-from
   - jekyll-time-to-read
+  - jekyll-toc
 
 paginate: 10 # Posts per page on the blog index
 paginate_path: "blog/posts/:num" # Directory base for pagination URLs eg. /posts/2/
@@ -137,3 +138,9 @@ include:
   - "_headers"
   - "_redirects"
   - ".well-known"
+
+# Table of contents
+# https://github.com/toshimaru/jekyll-toc
+toc:
+  min_level: 2 # default: 1
+  max_level: 5 # default: 6

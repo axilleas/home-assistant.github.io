@@ -18,6 +18,7 @@ ha_codeowners:
   - '@dmulcahey'
   - '@adminiuga'
 ha_domain: zha
+toc: true
 ---
 
 [Zigbee Home Automation](https://zigbeealliance.org)
