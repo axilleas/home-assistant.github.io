@@ -66,6 +66,10 @@
     </ul>
     </div>
   {%- endif -%}
+  <div class='section'>
+    <h1 class="title delta">On this page</h1>
+    {% include toc.html html=content sanitize=true h_min=2 %}
+  </div>
 </section>
 
 <script src="https://alerts.home-assistant.io/ce-alert-link.js"></script>
